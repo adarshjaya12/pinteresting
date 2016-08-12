@@ -2,6 +2,6 @@
 
 This is the pinteresting sample application for 
 
-[*One month Rails*][http://onemonthrails.com]
+[*One month Rails*](http://onemonthrails.com)
 
-by[Adarsh Jayakumar][http://adarshjayakumar.com]
+by[Adarsh Jayakumar](http://adarshjayakumar.com)
