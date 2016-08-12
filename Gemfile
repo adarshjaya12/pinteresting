@@ -14,6 +14,9 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'coffee-script-source', '1.8.0'
 
+gem 'bootstrap-sass'
+
+
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
