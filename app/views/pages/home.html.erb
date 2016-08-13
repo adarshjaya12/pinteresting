@@ -1,12 +1,18 @@
 <div class="jumbotron center">
 	<h1>Welcome to my App</h1>
-	<p>
-	<%= link_to "Log in","#", class: "btn btn-default" , data: { toggle: 'modal', target: ".bs-example-modal-sm" }%> 
-	<%= link_to "Sign up" , "#" , class: "btn btn-warning" , data: { toggle: 'modal', target: ".bs-example-modal-sm" } %></p>
+	<% if user_signed_in? %>
+		# do something
+	<% else %>
+		<p>
+		<%= link_to "Log in", new_user_session_path, class: "btn btn-default" %> 
+		<%= link_to "Sign up" , new_user_registration_path, class: "btn btn-warning"  %>
+		
+		</p>
+	<%end%>
 </div>
 
 
-
+<!-- data: { toggle: 'modal', target: ".bs-example-modal-sm" } -->
 <!-- <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
