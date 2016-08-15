@@ -6,11 +6,11 @@
 	    	<%= link_to image_tag(pin.image.url), pin,  class: "index-image" %>
 	    	
 	    	<div class="panel-body">
-	    	<%= pin.description %>
-	    	<%= pin.user.email if pin.user %>
+	    	<strong><%= pin.description %></strong>
+	    	<p style="font-size: 9px;"><%= pin.user.email if pin.user %></p>
 	    	
 	    	</div>
 	    </div>
 	<% end %>
 </div>
-
+<%= will_paginate @posts, class: "pagination-sm" , renderer: BootstrapPagination::Rails  %>

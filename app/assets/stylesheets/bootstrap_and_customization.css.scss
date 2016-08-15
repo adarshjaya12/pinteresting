@@ -1,10 +1,22 @@
-$body-bg:      #1abc9c;
-$navbar-default-bg: #336E7B;
+$body-bg: #FFFFFF;
+$navbar-default-bg: #E74C3C;
 $navbar-default-link-color: white;
 $navbar-default-toggle-icon-bar-bg: white;
 $navbar-default-toggle-hover-bg: #1abc9c;
-$jumbotron-bg: #65C6BB;
+$jumbotron-bg: #F2594B;
 
+.pagination  li .active
+{
+	background-color:#E74C3C;
+}
+.login-form
+{
+	marign :0 auto;
+}
+.white-text
+{
+	color: white;
+}
 .medium-image
 {
 	width: 300px;
