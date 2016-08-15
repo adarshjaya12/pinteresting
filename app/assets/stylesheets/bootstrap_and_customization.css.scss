@@ -5,7 +5,17 @@ $navbar-default-toggle-icon-bar-bg: white;
 $navbar-default-toggle-hover-bg: #1abc9c;
 $jumbotron-bg: #65C6BB;
 
+.medium-image
+{
+	width: 300px;
+	height: 300px;
+}
 
+thumbnail-image
+{
+	width:100px;
+	height:100px;
+}
 @import 'bootstrap';
 
 .center
